@@ -36,6 +36,7 @@ exports.getRoundDuration = (currentTime) ->
 exports.questions = -> [
 	# WARNING: indices are used, so don't remove items from this array (and add new questions at the end)
 	# Use null as second array entry if you want to stop a question from being selected (or true if 18+)
+	["is the best auditor", false]
 	["drinks the most alcohol", false]
 	["sleeps the most", false]
 	["has had the most bed partners", false]
